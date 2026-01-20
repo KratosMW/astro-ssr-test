@@ -4,7 +4,7 @@ import node from "@astrojs/node";
 // https://astro.build/config
 export default defineConfig({
 	output: 'server',
-	site: 'https://example.com',
+	site: 'http://testing-astro-ssr-test-xrmouw-f0ce2e-159-195-28-226.traefik.me/',
 	adapter: node({
 		mode: "standalone"
 	  }),
